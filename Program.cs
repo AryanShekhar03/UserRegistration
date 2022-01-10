@@ -55,6 +55,15 @@ namespace UserRegistration
             var check8 = password4.ValidatePassword4(Console.ReadLine());
             Console.WriteLine(check8);
 
+            //UC9
+            while (true)
+            {
+                UC9SampleEmails sampleEmail = new UC9SampleEmails();
+                Console.WriteLine("Please Enter your sample emails to check");
+                var check9 = sampleEmail.ValidateEmail(Console.ReadLine());
+                Console.WriteLine(check9);
+            }
+
         }
     }
 }
