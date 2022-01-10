@@ -48,6 +48,13 @@ namespace UserRegistration
             var check7 = password3.ValidatePassword3(Console.ReadLine());
             Console.WriteLine(check7);
 
+
+            //UC8
+            UC8Password4 password4 = new UC8Password4();
+            Console.WriteLine("Please Enter your password to check");
+            var check8 = password4.ValidatePassword4(Console.ReadLine());
+            Console.WriteLine(check8);
+
         }
     }
 }
